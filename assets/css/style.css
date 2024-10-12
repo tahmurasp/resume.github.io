@@ -72,12 +72,23 @@ svg {
   fill: currentColor;
 }
 */ 
-
-canvas{
-  display:block;
-  vertical-align:bottom;
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
 /* ---- stats.js ---- */
 
@@ -104,8 +115,6 @@ canvas{
 #stats,
 .count-particles{
   -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
 }
 
 #stats{
