@@ -14,7 +14,7 @@ body {
   position: relative;
   background: transparent;
 }
-
+/*
 body::before {
   content: "";
   position: fixed;
@@ -31,7 +31,7 @@ body::before {
     background-attachment: fixed;
   }
 }
-
+*/
 a {
   color: #12d640;
 }
@@ -56,7 +56,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+/*
 .background-image {
   position: absolute;
   display: block;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   filter: contrast(150%);
 }
-
+*/ 
 svg {
   fill: currentColor;
 }
