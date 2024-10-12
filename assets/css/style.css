@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   filter: contrast(150%);
 }
-*/ 
+
 svg {
   fill: currentColor;
 }
-
+*/ 
 <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
 
 canvas {
