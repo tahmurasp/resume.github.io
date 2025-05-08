@@ -76,12 +76,12 @@
 
 
   
-  <!-- ======= Start Google Tag Manager (noscript) ======= -->
+  <!-- ======= Start Google Tag Manager (noscript) =======
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
-  <!-- ======= End Google Tag Manager (noscript) ======= -->
+   ======= End Google Tag Manager (noscript) ======= -->
 
 
   <div id="particles-js"></div>
@@ -89,6 +89,24 @@
   <img class="background-image" src="assets/img/background/tunnel_slowmo.gif" />
   <video class="background-image" src="assets/img/background/binary_rain.mp4" muted loop autoplay></video>
 
+  <style>
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Particles layer */
+  }
+
+  .background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; /* Background layer */
+  }
+</style>
 
   <!-- ======= Start Header ======= -->
   
@@ -758,6 +776,7 @@
 <script src="assets/js/particles.min.js"></script>
 
 <!-- Initialize particles.js -->
+<script src="assets/js/particles.min.js"></script>
 <script>
   particlesJS.load('particles-js', 'assets/config/particles.json', function() {
     console.log('particles.js loaded');
