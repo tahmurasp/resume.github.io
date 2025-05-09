@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800
@@ -14,7 +14,7 @@
       "type": "circle"
     },
     "opacity": {
-      "value": 0.5
+      "value": 0.6
     },
     "size": {
       "value": 3,
@@ -29,7 +29,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 6
+      "speed": 2
     }
   }
 }
